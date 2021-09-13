@@ -1,0 +1,38 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: bisque;
+}
+
+header {
+    background-color: cadetblue;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px 0px 20px;
+}
+
+header h1 {
+    color: black;
+    font-weight: bold;
+    margin: 0;
+    background-color: cadetblue;
+}
+
+header nav {
+    background-color: cadetblue;
+}
+
+
+header nav ul li {
+    display: inline;
+}
+
+
+header nav ul li a {
+    float: right;
+    margin-bottom: 25px;
+    background-color: cadetblue;
+}
