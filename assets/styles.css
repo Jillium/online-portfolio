@@ -57,7 +57,7 @@ header nav ul li a {
 
 .hero {
     display: flex;
-    height: 425px;
+    height: 600px;
     max-width: 100%;
     margin: 12px auto;
     overflow: hidden;
@@ -76,7 +76,7 @@ header nav ul li a {
 }
 
 .profile-img {
-    height: 400px;
+    height: 600px;
     width: 600px;
     background-image: url(./Jill-DF.JPG);
     background-size: cover;
@@ -90,7 +90,7 @@ header nav ul li a {
 
 #profile-about {
     display: flex;
-    height: 400px;
+    height: 600px;
     flex-wrap: wrap;
     justify-content:center;
     align-content: center;
