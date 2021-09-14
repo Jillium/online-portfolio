@@ -7,7 +7,7 @@
 /*style for the body*/
 
 body {
-    background-color: #fff;
+    background-color: rgba(108, 111, 125, .4);
     padding: 30 px 60px;
 }
 
@@ -16,76 +16,130 @@ header {
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
-    background-color: #dcb069;
+    position: sticky;
+    top: 0;
+    background-color: #6c6f7d;
+    border-radius: 25px;
 }
 
 header a {
     text-decoration: none;
-    color: #6c6f7d;
+    color: #dcb069;
     text-decoration: underline;
 }
 
 header h1 {
-    color: #6c6f7d;
+    color: #dcb069;
     font-weight: bold;
+    font-size: 60px;
     margin: 0;
     display: inline;
     text-decoration: underline;
 }
 
-header nav {
-}
-
 
 header nav ul li {
     display: inline;
-    margin: 40px;
 }
 
 
 header nav ul li a {
     float: right;
     margin: 0 45px;
+    margin-right: 0px;
+    font-size: 20px
 }
 
 /*end style for the header/navigation section */
 
 /* styles for the hero/about me section*/
 
-section {
-    color: #fff;
-}
-
-
 
 .hero {
     display: flex;
-    height: 600px;
+    height: 450px;
     max-width: 100%;
     margin: 0 auto;
     overflow: hidden;
+}
 
+.hero div {
+    background-color: #6c6f7d;;
+    border-radius: 25px;
+}
+
+.hero h2 {
+    text-align:center;
+    flex-wrap: wrap;
+    color: #dcb069;
+    text-decoration: underline;
 }
 
 .profile-img {
     height: 400px;
-    width: 400px;
-    display: inline;
+    width: 600px;
     background-image: url(./Jill-DF.JPG);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 25px;
     border-style: hidden;
     border: 2px;
-    margin: 20px;
-    padding: 20px;
-    
-    
-    
-
+    margin: 10px;
+    flex-wrap: wrap;
 }
 
-.profile-about {
-    display: inline;
+#profile-about {
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: center;
+    text-align:center;
+    margin: 10px;
+    font-size: 20px
+}
 
+.profile-about h2 {
+    font-size: 25px;
+    text-decoration:underline;
+
+   
+}
+
+/* start styling for portfolio section */
+
+
+
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.run-buddy {
+    height: 400px;
+    width: 100%;
+    background-image: url(./run-buddy.jpeg);
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.project-info {
+    color: #fff;
+    background-color: #ccc9e7; 
+    width: 170px;
+    margin-top: 300px;
+    text-align: center;
+}
+
+
+
+.project-row {
+    height: 400px;
+    width: 100%;
+    flex-wrap: flex;
+}
+
+.second-project-row {
+    flex-wrap: flex;
 }
