@@ -7,7 +7,8 @@
 /*style for the body*/
 
 body {
-    background-color: bisque;
+    background-color: #fff;
+    padding: 30 px 60px;
 }
 
 /*style for the header/navigation section*/
@@ -15,18 +16,21 @@ header {
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
+    background-color: #dcb069;
 }
 
 header a {
     text-decoration: none;
-    color: black;
+    color: #6c6f7d;
+    text-decoration: underline;
 }
 
 header h1 {
-    color: black;
+    color: #6c6f7d;
     font-weight: bold;
     margin: 0;
     display: inline;
+    text-decoration: underline;
 }
 
 header nav {
@@ -35,6 +39,7 @@ header nav {
 
 header nav ul li {
     display: inline;
+    margin: 40px;
 }
 
 
@@ -44,3 +49,43 @@ header nav ul li a {
 }
 
 /*end style for the header/navigation section */
+
+/* styles for the hero/about me section*/
+
+section {
+    color: #fff;
+}
+
+
+
+.hero {
+    display: flex;
+    height: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.profile-img {
+    height: 400px;
+    width: 400px;
+    display: inline;
+    background-image: url(./Jill-DF.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border-style: hidden;
+    border: 2px;
+    margin: 20px;
+    padding: 20px;
+    
+    
+    
+
+}
+
+.profile-about {
+    display: inline;
+
+}
