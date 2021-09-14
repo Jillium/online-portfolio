@@ -37,17 +37,16 @@ header h1 {
     text-decoration: underline;
 }
 
-
-header nav ul li {
-    display: inline;
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-
 header nav ul li a {
-    float: right;
-    margin: 0 45px;
-    margin-right: 0px;
-    font-size: 20px
+    padding: 10px 15px;
 }
 
 /*end style for the header/navigation section */
