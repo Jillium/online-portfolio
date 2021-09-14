@@ -57,9 +57,9 @@ header nav ul li a {
 
 .hero {
     display: flex;
-    height: 450px;
+    height: 425px;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 12px auto;
     overflow: hidden;
 }
 
@@ -117,29 +117,70 @@ header nav ul li a {
 
 
 .run-buddy {
-    height: 400px;
+    height: 300px;
     width: 100%;
     background-image: url(./run-buddy.jpeg);
     background-size: cover;
     border-radius: 25px;
+    margin: 15px;
 }
 
 .project-info {
     color: #fff;
     background-color: #ccc9e7; 
-    width: 170px;
-    margin-top: 300px;
+    width: 240px;
+    margin-top: 200px;
     text-align: center;
 }
 
-
-
 .project-row {
-    height: 400px;
+    height: 300px;
     width: 100%;
-    flex-wrap: flex;
+    display: flex; 
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.placeholder-one {
+    height: 300px;
+    width: 50%;
+    background-image:url(./pexels-andy-vu-3484061.jpeg);
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.placeholder-two {
+    height: 300px;
+    width: 50%;
+    background-image:url(./pexels-eberhard-grossgasteiger-6439051.jpeg);
+    background-size: cover;
+    border-radius: 25px;
 }
 
 .second-project-row {
-    flex-wrap: flex;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.placeholder-three {
+    height: 300px;
+    width: 50%;
+    background-image:url(./pexels-pixabay-158385.jpeg);
+    background-size:cover;
+    border-radius: 25px;
+}
+
+.placeholder-four {
+    height: 300px;
+    width: 50%;
+    background-image: url(./pexels-sindre-strøm-1144176.jpeg);
+    background-size: cover;
+    border-radius: 25px;;
 }
