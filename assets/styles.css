@@ -12,39 +12,37 @@ body {
 }
 
 /*style for the header/navigation section*/
-header {
+.header {
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
     position: sticky;
     top: 0;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, .75);
 }
 
-header a {
-    text-decoration: none;
-    color: #dcb069;
+.header a {
+    color: #000;
     text-decoration: underline;
 }
 
-header h1 {
-    color: #dcb069;
-    font-weight: normal;
+.header-child h1 {
+    color: #000;
     font-size: 60px;
     margin: 0;
     display: inline;
     text-decoration: underline;
 }
 
-header nav ul {
+.header-nav nav ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
-header nav ul li a {
+.header-nav nav ul li a {
     padding: 10px 15px;
 }
 
@@ -64,7 +62,7 @@ header nav ul li a {
 .hero h2 {
     text-align:center;
     flex-wrap: wrap;
-    color: #dcb069;
+    color: #000;
     text-decoration: underline;
 }
 
@@ -77,6 +75,7 @@ header nav ul li a {
     border: 2px;
     margin: 10px;
     flex-wrap: wrap;
+    opacity: .85;
 }
 
 #profile-about {
@@ -91,7 +90,7 @@ header nav ul li a {
     font-size: 20px;
     background-image: url(./autumn-trees-sun-road-leaves.jpg);
     background-size: cover;
-    opacity: .75;
+    opacity: .85;
 }
 
 .profile-about h2 {
@@ -111,7 +110,7 @@ header nav ul li a {
 }
 
 .portfolio-title {
-    color: #6c6f7d;
+    color:#000;
     width: 100%;
     text-align: center;
     text-decoration: underline;
@@ -181,4 +180,45 @@ header nav ul li a {
     width: 48%;
     background-image: url(./pexels-sindre-strøm-1144176.jpeg);
     background-size: cover;
+}
+
+/* end styles for portfolio section */
+
+/* start styles for footer section */
+
+.footer {
+    background-color: rgba(255, 255, 255, .75);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer a {
+    color: #000;
+}
+
+.footer h3 {
+    margin: 0;
+    font-size: 60px;
+    text-decoration: underline;
+    flex-wrap: wrap;
+    
+}
+
+.footer-links nav ul li  {
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+
+.footer-links li {
+    list-style: none;
+    display: inline;
+}
+
+
+.footer-links nav ul li a {
+    padding: 10px 15px;
 }
