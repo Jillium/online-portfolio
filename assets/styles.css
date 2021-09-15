@@ -7,7 +7,7 @@
 /*style for the body*/
 
 body {
-    background-color: rgba(108, 111, 125, .4);
+    background-color:#fff;
     padding: 30 px 60px;
 }
 
@@ -18,7 +18,7 @@ header {
     justify-content: space-between;
     position: sticky;
     top: 0;
-    background-color: #6c6f7d;
+    background-color: #fff;
 }
 
 header a {
@@ -61,10 +61,6 @@ header nav ul li a {
     overflow: hidden;
 }
 
-.hero div {
-    background-color: #6c6f7d;
-}
-
 .hero h2 {
     text-align:center;
     flex-wrap: wrap;
@@ -86,12 +82,16 @@ header nav ul li a {
 #profile-about {
     display: flex;
     height: 600px;
+    width: 1300px;
     flex-wrap: wrap;
     justify-content:center;
     align-content: center;
     text-align:center;
     margin: 10px;
-    font-size: 20px
+    font-size: 20px;
+    background-image: url(./autumn-trees-sun-road-leaves.jpg);
+    background-size: cover;
+    opacity: .75;
 }
 
 .profile-about h2 {
