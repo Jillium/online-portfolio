@@ -9,6 +9,8 @@
 body {
     background-color:#fff;
     padding: 30 px 60px;
+    box-sizing: border-box;
+    max-width: 1700px;
 }
 
 /*style for the header/navigation section*/
@@ -22,6 +24,7 @@ body {
     position: sticky;
     top: 0;
     background-color: rgba(255, 255, 255, .75);
+    z-index: 999;
 }
 
 .header a {
@@ -102,24 +105,27 @@ body {
 }
 
 #portfolio {
-    max-width: 1700px;
-    min-width: 0;
-    min-height: 0;
+    
 }
 
 /* this is the flexbox container*/
-.run-buddy {
-    height: 500px;
-    width: 1400px;
-    background-image: url(./run-buddy.jpeg);
-    background-size: cover;
-    display: inline-block;
-    align-content: center;
-    border-style: solid;
-    border-color: green;
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-shrink: inherit;
 }
 
 /* this is the flexbox child */
+.run-buddy {
+    width: 1400px;
+}
+
+.gallery-big {
+    width: 100%;
+} 
+    
+
 .project-info {
     color: #fff;
     background-color: #ccc9e7; 
