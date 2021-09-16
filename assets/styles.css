@@ -1,7 +1,7 @@
 /* style for entire sheet*/
 
 * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
 }
 
 /*style for the body*/
@@ -53,6 +53,13 @@ header {
 .nav-item a {
     color: #000;
 }
+
+.nav-item a:hover {
+    color:rgb(117, 105, 105);
+}
+
+
+
 /*end style for the header/navigation section */
 
 /* styles for the hero/about me section*/
@@ -117,9 +124,14 @@ header {
     width: 1400px;
 }
 
+.run-buddy:hover {
+    opacity: 50%;
+}
+
 .gallery-big {
     width: 100%;
-} 
+}
+
     
 
 .project-row {
@@ -138,8 +150,11 @@ header {
 
 .placeholder-one {
     min-height: 400px;
-    max-width: 100%;
-    
+    max-width: 100%;  
+}
+
+.placeholder-one:hover {
+    opacity: 50%;
 }
 
 .placeholder-two {
@@ -147,15 +162,27 @@ header {
     max-width: 100%;
 }
 
+.placeholder-two:hover {
+    opacity: 50%;
+}
+
 .placeholder-three {
     min-height: 400px;
     max-width: 100%;
+}
+
+.placeholder-three:hover {
+    opacity: 50%;
 }
 
 
 .placeholder-four {
     min-height: 400px;
     max-width: 100%;
+}
+
+.placeholder-four:hover {
+    opacity: 50%;
 }
 
 /* end styles for portfolio section */
@@ -187,4 +214,8 @@ header {
 
 .link-item a {
     color: #000;
+}
+
+.link-item a:hover {
+    color:rgb(117, 105, 105);
 }
