@@ -18,6 +18,7 @@ body {
 
 header {
     position: sticky;
+    top: 0;
     z-index: 999;
     background-color: rgba(255, 255, 255, .75);
 }
@@ -35,7 +36,8 @@ header {
 /* these are the children elements*/
 .header-name {
     text-decoration: underline;
-    font-size: 30px
+    font-size: 30px;
+    text-shadow: 2px 2px 5px #dcb069;
 }
 
 .header-nav {
@@ -48,6 +50,7 @@ header {
     float: right;
     margin: 10px;
     color: #000;
+    text-shadow: 2px 2px 5px #dcb069;
 }
 
 .nav-item a {
@@ -109,6 +112,7 @@ header {
     text-align: center;
     text-decoration: underline;
     font-size: 40px;
+    text-shadow: 2px 2px 5px #dcb069;
 }
 
 .project-title{
@@ -204,6 +208,7 @@ header {
 .footer-title {
     text-decoration: underline;
     font-size: 25px;
+    text-shadow: 2px 2px 5px #dcb069;
 }
 
 .footer-links {
@@ -216,6 +221,7 @@ header {
     float: right;
     margin: 10px;
     color: #000;
+    text-shadow: 2px 2px 5px #dcb069;
 }
 
 .link-item a {
