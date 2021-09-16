@@ -111,6 +111,12 @@ header {
     font-size: 40px;
 }
 
+.project-title{
+    background: #ccc9e7;
+    margin-bottom: 0;
+    text-align: center;
+    height: 20px;
+}
 /* this is the flexbox container*/
 
 .container {
@@ -138,7 +144,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 20px 0;
+    margin: 40px 0;
     flex-shrink: inherit;
 }
 
