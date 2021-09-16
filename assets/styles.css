@@ -14,8 +14,11 @@ body {
 /*style for the header/navigation section*/
 .header {
     padding: 15px 30px;
+    width: 1700px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
     position: sticky;
     top: 0;
     background-color: rgba(255, 255, 255, .75);
@@ -36,10 +39,10 @@ body {
 
 .header-nav nav ul {
     list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
+}
+
+.header-nav nav ul li {
+    display: inline;
 }
 
 .header-nav nav ul li a {
@@ -50,81 +53,73 @@ body {
 
 /* styles for the hero/about me section*/
 
-
-.hero {
+#profile-about {
     display: flex;
-    height: 600px;
-    max-width: 100%;
-    margin: 12px auto;
-    overflow: hidden;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    color: #000;
+    min-width: 0;
+    min-height: 0;
+    max-width: 1700px;
+    margin: 20px;
 }
 
-.hero h2 {
-    text-align:center;
-    flex-wrap: wrap;
-    color: #000;
+.about-me {
+    height: 600px;
+    width: 1000px;
+    background-image: url(./autumn-trees-sun-road-leaves.jpg);
+    background-size: cover;
+    text-align: center;
+    opacity: .85;
+    font-size: 20px;
+}
+
+.about-me h2 {
     text-decoration: underline;
+    font-size: 25px;
 }
 
 .profile-img {
-    height: 600px;
-    width: 600px;
-    background-image: url(./Jill-DF.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: 2px;
-    margin: 10px;
-    flex-wrap: wrap;
-    opacity: .85;
-}
-
-#profile-about {
-    display: flex;
-    height: 600px;
-    width: 1300px;
-    flex-wrap: wrap;
-    justify-content:center;
-    align-content: center;
-    text-align:center;
-    margin: 10px;
-    font-size: 20px;
-    background-image: url(./autumn-trees-sun-road-leaves.jpg);
-    background-size: cover;
-    opacity: .85;
-}
-
-.profile-about h2 {
-    font-size: 25px;
-    text-decoration:underline;
-
-   
+   height: 600px;
+   width: 505px;
+   background-image:url(./Jill-DF.JPG);
+   background-size: cover;
+   flex-wrap: wrap;
+   opacity: .85;
 }
 
 /* start styling for portfolio section */
 
-
-
-#portfolio {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .portfolio-title {
     color:#000;
-    width: 100%;
+    width: 1700px;
     text-align: center;
     text-decoration: underline;
     font-size: 40px;
 }
 
-.run-buddy {
-    height: 500px;
-    width: 100%;
-    background-image: url(./run-buddy.jpeg);
-    background-size: cover;
-    margin: 15px;
+#portfolio {
+    max-width: 1700px;
+    min-width: 0;
+    min-height: 0;
 }
 
+/* this is the flexbox container*/
+.run-buddy {
+    height: 500px;
+    width: 1400px;
+    background-image: url(./run-buddy.jpeg);
+    background-size: cover;
+    display: inline-block;
+    align-content: center;
+    border-style: solid;
+    border-color: green;
+}
+
+/* this is the flexbox child */
 .project-info {
     color: #fff;
     background-color: #ccc9e7; 
@@ -136,50 +131,61 @@ body {
 
 .project-row {
     height: 300px;
-    width: 100%;
+    width: 1700px;
     display: flex; 
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-evenly;
     margin: 15px;
+    border-style: solid;
+    border-color: blue;
 }
 
 .placeholder-one {
     height: 300px;
-    width: 48%;
+    width: 800px;
     background-image:url(./pexels-andy-vu-3484061.jpeg);
     background-size: cover;
+    border-style: solid;
+    border-color: red;
 }
 
 .placeholder-two {
     height: 300px;
-    width: 48%;
+    width: 800px;
     background-image:url(./pexels-eberhard-grossgasteiger-6439051.jpeg);
     background-size: cover;
+    border-style: solid;
+    border-color: red;
 }
 
 .second-project-row {
     height: 300px;
-    width: 100%;
+    width: 1700px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-evenly;
     margin: 15px;
+    border-style: solid;
+    border-color: blue;
 }
 
 .placeholder-three {
     height: 300px;
-    width: 48%;
+    width: 800px;
     background-image:url(./pexels-pixabay-158385.jpeg);
     background-size:cover;
+    border-style: solid;
+    border-color: blue;
 }
 
 .placeholder-four {
     height: 300px;
-    width: 48%;
+    width: 800px;
     background-image: url(./pexels-sindre-strøm-1144176.jpeg);
     background-size: cover;
+    border-color: blue;
 }
 
 /* end styles for portfolio section */
