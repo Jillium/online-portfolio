@@ -36,8 +36,6 @@ header {
 .header-name {
     text-decoration: underline;
     font-size: 30px
-   
-
 }
 
 .header-nav {
@@ -106,10 +104,6 @@ header {
     font-size: 40px;
 }
 
-#portfolio {
-    
-}
-
 /* this is the flexbox container*/
 
 .container {
@@ -133,6 +127,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 20px 0;
+    flex-shrink: inherit;
 }
 
 .placeholder {
