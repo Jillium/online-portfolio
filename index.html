@@ -12,25 +12,36 @@
 <body>
     <!-- navigation/header-->
     
-    <header class="header">
-        <div class="header-child">
+    <header>
+        <div class="header-main">
+    
+        <div class="header-name">
             <h1>Jill Holmes</h1>
         </div>
-            <div class="header-nav">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#contact-me">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#profile-about">About Me</a>
-                    </li>
-                </ul>
-            </nav>
-            </div>
+    
+    
+        <div class="header-nav">
+        
+             <ul>
+                 <div class="nav-item">
+                 <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
+                </div>
+                <div class="nav-item">
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                </div>
+                <div class="nav-item">
+                <li>
+                    <a href="#profile-about">About Me</a>
+                </li>
+                </div>
+             </ul>
+        
+        </div>
+    
         </div>
     </header>
     <!-- end navigation/header-->
@@ -44,7 +55,7 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit animi voluptates amet necessitatibus eligendi! Non, cum dolorum, laborum voluptatum nesciunt sapiente eum assumenda porro esse iusto, tempora voluptates quos exercitationem.</p>
         </div>
 
-        <div class="profile-img">
+        <div class="profile-img" style="flex-shrink: 1.75">
             <!--img goes here-->
         </div>
     </section>
@@ -53,11 +64,11 @@
 
     <!-- portfolio section -->
 
-    <div class="portfolio-title">
+    <div id = "portfolio" class="portfolio-title">
         <h2>Portfolio</h2>
     </div>
 
-    <section id="portfolio">
+    <section>
         
 
         <container class="container">
@@ -68,39 +79,25 @@
         </container>
 
 
+       
         <container class="project-row">
-            <div class="placeholder-one">
-                <div class="project-info">
-                    <h3>Future Project</h3>
-                    <h3>HTML/CSS/Javascript</h3>
-                </div>
+            <div class="placeholder">
+                <img class ="placeholder-one" src="assets/pexels-sindre-strøm-1144176.jpeg">
             </div>
-
-            <div class="placeholder-two">
-                <div class="project-info">
-                    <h3>Future Project</h3>
-                    <h3>HTML/CSS/Javascript</h3>
-                </div>
+        
+            <div class="placeholder">
+                <img class="placeholder-two" src="assets/pexels-eberhard-grossgasteiger-6439051.jpeg">
             </div>
-
-
         </container>
 
-        <container class="second-project-row">
-            <div class="placeholder-three">
-                <div class="project-info">
-                    <h3>Future Project</h3>
-                    <h3>HTML/CSS/Javascript</h3>
-                </div>
+        <container class="project-row">
+            <div class="placeholder">
+                <img class ="placeholder-three" src="assets/pexels-jaime-reimer-2662116.jpeg">
             </div>
-            
-            <div class="placeholder-four">
-                <div class="project-info">
-                    <h3>Future Project</h3>
-                    <h3>HTML/CSS/Javascript</h3>
-                </div>
+        
+            <div class="placeholder">
+                <img class="placeholder-four" src="assets/pexels-pixabay-158385.jpeg">
             </div>
-            
         </container>
 
     </section>
@@ -110,21 +107,27 @@
     <!--footer/contact me section -->
 
 
-    <footer id="contact-me">
-        <div class="footer">
-            
-            <h3>Reach Out</h3>
-            
-            <div class="footer-links">
-                <ul>
-                    <li><a href="mailto:holmesjillanne@gmail.com">Email: Holmesjillanne@gmail.com</a></li>
-                    <li><a href="https://github.com/Jillium">Github</a></li>
-                    <li><a href="www.linkedin.com/in/jill-holmes-688a23215">LinkedIn</a></li>
-                </ul>
-            </div>    
-            
+    <footer id="#contact-me" class="footer-main">
 
+        <div class="footer-title">
+            <h3>Reach Out</h3>
         </div>
+    
+        <div class="footer-links">
+    
+            <ul>
+                <div class="link-item">
+                    <li><a href="mailto:holmesjillanne@gmail.com">holmesjillanne@gmail.com</a></li>
+                </div>
+                <div class="link-item">
+                    <li><a href="https://github.com/Jillium">Github</a></li>
+                </div>
+                <div class="link-item">
+                    <li><a href="www.linkedin.com/in/jill-holmes-688a23215">LinkedIn</a></li>
+                </div>
+            </ul>
+        </div>
+        
     </footer>
    
 </body>

@@ -14,44 +14,47 @@ body {
 }
 
 /*style for the header/navigation section*/
-.header {
-    padding: 15px 30px;
-    width: 1700px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
+
+
+header {
     position: sticky;
-    top: 0;
-    background-color: rgba(255, 255, 255, .75);
     z-index: 999;
+    background-color: rgba(255, 255, 255, .75);
 }
 
-.header a {
-    color: #000;
+
+/* this is the parent element*/
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+/* these are the children elements*/
+.header-name {
     text-decoration: underline;
+    font-size: 30px
+   
+
 }
 
-.header-child h1 {
-    color: #000;
-    font-size: 60px;
-    margin: 0;
-    display: inline;
-    text-decoration: underline;
+.header-nav {
+   list-style: none;
+   float: right;
 }
 
-.header-nav nav ul {
+.nav-item {
     list-style: none;
+    float: right;
+    margin: 10px;
+    color: #000;
 }
 
-.header-nav nav ul li {
-    display: inline;
+.nav-item a {
+    color: #000;
 }
-
-.header-nav nav ul li a {
-    padding: 10px 15px;
-}
-
 /*end style for the header/navigation section */
 
 /* styles for the hero/about me section*/
@@ -82,7 +85,7 @@ body {
 
 .about-me h2 {
     text-decoration: underline;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .profile-img {
@@ -98,7 +101,6 @@ body {
 
 .portfolio-title {
     color:#000;
-    width: 1700px;
     text-align: center;
     text-decoration: underline;
     font-size: 40px;
@@ -126,111 +128,68 @@ body {
 } 
     
 
-.project-info {
-    color: #fff;
-    background-color: #ccc9e7; 
-    width: 240px;
-    margin-top: 200px;
-    text-align: center;
+.project-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px 0;
 }
 
-
-.project-row {
-    height: 300px;
-    width: 1700px;
-    display: flex; 
+.placeholder {
+    height: 400px;
+    width: 600px;
     flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-evenly;
-    margin: 15px;
-    border-style: solid;
-    border-color: blue;
 }
 
 .placeholder-one {
-    height: 300px;
-    width: 800px;
-    background-image:url(./pexels-andy-vu-3484061.jpeg);
-    background-size: cover;
-    border-style: solid;
-    border-color: red;
+    min-height: 400px;
+    max-width: 100%;
+    
 }
 
 .placeholder-two {
-    height: 300px;
-    width: 800px;
-    background-image:url(./pexels-eberhard-grossgasteiger-6439051.jpeg);
-    background-size: cover;
-    border-style: solid;
-    border-color: red;
-}
-
-.second-project-row {
-    height: 300px;
-    width: 1700px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-evenly;
-    margin: 15px;
-    border-style: solid;
-    border-color: blue;
+    min-height: 0;
+    max-width: 100%;
 }
 
 .placeholder-three {
-    height: 300px;
-    width: 800px;
-    background-image:url(./pexels-pixabay-158385.jpeg);
-    background-size:cover;
-    border-style: solid;
-    border-color: blue;
+    min-height: 400px;
+    max-width: 100%;
 }
 
+
 .placeholder-four {
-    height: 300px;
-    width: 800px;
-    background-image: url(./pexels-sindre-strøm-1144176.jpeg);
-    background-size: cover;
-    border-color: blue;
+    min-height: 400px;
+    max-width: 100%;
 }
 
 /* end styles for portfolio section */
 
 /* start styles for footer section */
 
-.footer {
-    background-color: rgba(255, 255, 255, .75);
+.footer-main {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
 }
 
-footer a {
+.footer-title {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.footer-links {
+    list-style: none;
+    float: right;
+}
+
+.link-item {
+    list-style: none;
+    float: right;
+    margin: 10px;
     color: #000;
 }
 
-.footer h3 {
-    margin: 0;
-    font-size: 60px;
-    text-decoration: underline;
-    flex-wrap: wrap;
-    
-}
-
-.footer-links nav ul li  {
-   list-style: none;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   align-items: flex-start;
-}
-
-.footer-links li {
-    list-style: none;
-    display: inline;
-}
-
-
-.footer-links nav ul li a {
-    padding: 10px 15px;
+.link-item a {
+    color: #000;
 }
