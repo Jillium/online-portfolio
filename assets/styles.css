@@ -236,3 +236,41 @@ header {
 .link-item a:hover {
     color:rgb(117, 105, 105);
 }
+
+/*End styles for footer section */
+
+/* Media Queries start */
+
+/* Media Queries for tablets and smaller */
+
+@media screen and (max-width: 575px) {
+    /*for any screen smaller than 575px */
+
+   .header-main {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-between;
+       align-content: center;
+   }
+
+  .nav-item {
+      margin: 10px 45px 10px 0;
+  }
+
+  .project-row {
+      margin: 0;
+      height: 760px;
+  }
+
+  .footer-main {
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .link-item {
+      margin: 10px 45px 10px 0;
+  }
+}
+
