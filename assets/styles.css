@@ -117,9 +117,12 @@ header {
 
 .project-title{
     background: #ccc9e7;
-    margin-bottom: 0;
-    text-align: center;
-    height: 20px;
+    height: 40px;
+    width: 170px;
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    font-weight: bold;   
 }
 /* this is the flexbox container*/
 
@@ -160,8 +163,10 @@ header {
 
 .placeholder-one {
     min-height: 400px;
-    max-width: 100%;  
+    max-width: 100%; 
+    z-index: 1; 
 }
+
 
 .placeholder-one:hover {
     opacity: 50%;
