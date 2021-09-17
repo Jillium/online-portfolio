@@ -241,7 +241,7 @@ header {
 
 /* Media Queries start */
 
-/* Media Queries for tablets and smaller */
+/* Media Queries for phones and smaller */
 
 @media screen and (max-width: 575px) {
     /*for any screen smaller than 575px */
@@ -272,5 +272,24 @@ header {
   .link-item {
       margin: 10px 45px 10px 0;
   }
+
 }
 
+
+/* Media query for tablets and smaller */
+@media screen and (max-width: 768px) {
+
+    .profile-img {
+        width: 710px;
+    }
+
+    .run-buddy {
+        width: 650px;
+    }
+
+    .project-row {
+        margin: 0 0 20px 0;
+        height: 760px;
+    }
+    
+}
